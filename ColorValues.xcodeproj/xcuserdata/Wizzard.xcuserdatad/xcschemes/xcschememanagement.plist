@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ColorValues WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ColorValues.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Notification - ColorValues WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>1D80A23D1AE161DC008A4387</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D80A25E1AE161FE008A4387</key>
 		<dict>
 			<key>primary</key>
 			<true/>

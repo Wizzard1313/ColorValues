@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D80A25E1AE161FE008A4387"
+               BuildableName = "ColorValues WatchKit App.app"
+               BlueprintName = "ColorValues WatchKit App"
+               ReferencedContainer = "container:ColorValues.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D80A2281AE161DC008A4387"
                BuildableName = "ColorValues.app"
                BlueprintName = "ColorValues"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D80A23D1AE161DC008A4387"
-               BuildableName = "ColorValuesTests.xctest"
-               BlueprintName = "ColorValuesTests"
+               BlueprintIdentifier = "1D80A2511AE161FE008A4387"
+               BuildableName = "ColorValues WatchKit Extension.appex"
+               BlueprintName = "ColorValues WatchKit Extension"
                ReferencedContainer = "container:ColorValues.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D80A23D1AE161DC008A4387"
-               BuildableName = "ColorValuesTests.xctest"
-               BlueprintName = "ColorValuesTests"
-               ReferencedContainer = "container:ColorValues.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D80A2281AE161DC008A4387"
-            BuildableName = "ColorValues.app"
-            BlueprintName = "ColorValues"
+            BlueprintIdentifier = "1D80A25E1AE161FE008A4387"
+            BuildableName = "ColorValues WatchKit App.app"
+            BlueprintName = "ColorValues WatchKit App"
             ReferencedContainer = "container:ColorValues.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/ColorValues">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D80A2281AE161DC008A4387"
-            BuildableName = "ColorValues.app"
-            BlueprintName = "ColorValues"
+            BlueprintIdentifier = "1D80A25E1AE161FE008A4387"
+            BuildableName = "ColorValues WatchKit App.app"
+            BlueprintName = "ColorValues WatchKit App"
             ReferencedContainer = "container:ColorValues.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D80A25E1AE161FE008A4387"
+            BuildableName = "ColorValues WatchKit App.app"
+            BlueprintName = "ColorValues WatchKit App"
+            ReferencedContainer = "container:ColorValues.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/ColorValues">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1D80A2281AE161DC008A4387"
-            BuildableName = "ColorValues.app"
-            BlueprintName = "ColorValues"
+            BlueprintIdentifier = "1D80A25E1AE161FE008A4387"
+            BuildableName = "ColorValues WatchKit App.app"
+            BlueprintName = "ColorValues WatchKit App"
             ReferencedContainer = "container:ColorValues.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D80A25E1AE161FE008A4387"
+            BuildableName = "ColorValues WatchKit App.app"
+            BlueprintName = "ColorValues WatchKit App"
+            ReferencedContainer = "container:ColorValues.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

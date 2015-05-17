@@ -13,6 +13,11 @@
 		1D80A2361AE161DC008A4387 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D80A2351AE161DC008A4387 /* Images.xcassets */; };
 		1D80A2391AE161DC008A4387 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D80A2371AE161DC008A4387 /* LaunchScreen.xib */; };
 		1D80A2451AE161DD008A4387 /* ColorValuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80A2441AE161DD008A4387 /* ColorValuesTests.swift */; };
+		1D80A2581AE161FE008A4387 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80A2571AE161FE008A4387 /* InterfaceController.swift */; };
+		1D80A25C1AE161FE008A4387 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D80A25B1AE161FE008A4387 /* Images.xcassets */; };
+		1D80A2601AE161FE008A4387 /* ColorValues WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1D80A25F1AE161FE008A4387 /* ColorValues WatchKit App.app */; };
+		1D80A2681AE161FE008A4387 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D80A2661AE161FE008A4387 /* Interface.storyboard */; };
+		1D80A26D1AE161FE008A4387 /* ColorValues WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D80A2521AE161FE008A4387 /* ColorValues WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,35 @@
 			remoteGlobalIDString = 1D80A2281AE161DC008A4387;
 			remoteInfo = ColorValues;
 		};
+		1D80A2611AE161FE008A4387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D80A2211AE161DC008A4387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D80A25E1AE161FE008A4387;
+			remoteInfo = "ColorValues WatchKit App";
+		};
+		1D80A26B1AE161FE008A4387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D80A2211AE161DC008A4387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D80A2511AE161FE008A4387;
+			remoteInfo = "ColorValues WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D80A2741AE161FE008A4387 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D80A26D1AE161FE008A4387 /* ColorValues WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D80A2291AE161DC008A4387 /* ColorValues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorValues.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +69,13 @@
 		1D80A23E1AE161DC008A4387 /* ColorValuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorValuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D80A2431AE161DC008A4387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D80A2441AE161DD008A4387 /* ColorValuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValuesTests.swift; sourceTree = "<group>"; };
+		1D80A2521AE161FE008A4387 /* ColorValues WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ColorValues WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D80A2551AE161FE008A4387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D80A2571AE161FE008A4387 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1D80A25B1AE161FE008A4387 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../ColorValues WatchKit Extension/Images.xcassets"; sourceTree = "<group>"; };
+		1D80A25F1AE161FE008A4387 /* ColorValues WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorValues WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D80A2651AE161FE008A4387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D80A2671AE161FE008A4387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +93,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D80A24F1AE161FE008A4387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +108,8 @@
 			children = (
 				1D80A22B1AE161DC008A4387 /* ColorValues */,
 				1D80A2411AE161DC008A4387 /* ColorValuesTests */,
+				1D80A2531AE161FE008A4387 /* ColorValues WatchKit Extension */,
+				1D80A2631AE161FE008A4387 /* ColorValues WatchKit App */,
 				1D80A22A1AE161DC008A4387 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +119,8 @@
 			children = (
 				1D80A2291AE161DC008A4387 /* ColorValues.app */,
 				1D80A23E1AE161DC008A4387 /* ColorValuesTests.xctest */,
+				1D80A2521AE161FE008A4387 /* ColorValues WatchKit Extension.appex */,
+				1D80A25F1AE161FE008A4387 /* ColorValues WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +163,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D80A2531AE161FE008A4387 /* ColorValues WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D80A2571AE161FE008A4387 /* InterfaceController.swift */,
+				1D80A2541AE161FE008A4387 /* Supporting Files */,
+			);
+			path = "ColorValues WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1D80A2541AE161FE008A4387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D80A2551AE161FE008A4387 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D80A2631AE161FE008A4387 /* ColorValues WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1D80A2661AE161FE008A4387 /* Interface.storyboard */,
+				1D80A25B1AE161FE008A4387 /* Images.xcassets */,
+				1D80A2641AE161FE008A4387 /* Supporting Files */,
+			);
+			path = "ColorValues WatchKit App";
+			sourceTree = "<group>";
+		};
+		1D80A2641AE161FE008A4387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D80A2651AE161FE008A4387 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +208,12 @@
 				1D80A2251AE161DC008A4387 /* Sources */,
 				1D80A2261AE161DC008A4387 /* Frameworks */,
 				1D80A2271AE161DC008A4387 /* Resources */,
+				1D80A2741AE161FE008A4387 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1D80A26C1AE161FE008A4387 /* PBXTargetDependency */,
 			);
 			name = ColorValues;
 			productName = ColorValues;
@@ -150,6 +238,39 @@
 			productReference = 1D80A23E1AE161DC008A4387 /* ColorValuesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1D80A2511AE161FE008A4387 /* ColorValues WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D80A2711AE161FE008A4387 /* Build configuration list for PBXNativeTarget "ColorValues WatchKit Extension" */;
+			buildPhases = (
+				1D80A24E1AE161FE008A4387 /* Sources */,
+				1D80A24F1AE161FE008A4387 /* Frameworks */,
+				1D80A2501AE161FE008A4387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D80A2621AE161FE008A4387 /* PBXTargetDependency */,
+			);
+			name = "ColorValues WatchKit Extension";
+			productName = "ColorValues WatchKit Extension";
+			productReference = 1D80A2521AE161FE008A4387 /* ColorValues WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1D80A25E1AE161FE008A4387 /* ColorValues WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D80A26E1AE161FE008A4387 /* Build configuration list for PBXNativeTarget "ColorValues WatchKit App" */;
+			buildPhases = (
+				1D80A25D1AE161FE008A4387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorValues WatchKit App";
+			productName = "ColorValues WatchKit App";
+			productReference = 1D80A25F1AE161FE008A4387 /* ColorValues WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +286,13 @@
 					1D80A23D1AE161DC008A4387 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 1D80A2281AE161DC008A4387;
+					};
+					1D80A2511AE161FE008A4387 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1D80A25E1AE161FE008A4387 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2VETF57N57;
 					};
 				};
 			};
@@ -183,6 +311,8 @@
 			targets = (
 				1D80A2281AE161DC008A4387 /* ColorValues */,
 				1D80A23D1AE161DC008A4387 /* ColorValuesTests */,
+				1D80A2511AE161FE008A4387 /* ColorValues WatchKit Extension */,
+				1D80A25E1AE161FE008A4387 /* ColorValues WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +332,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D80A2501AE161FE008A4387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D80A2601AE161FE008A4387 /* ColorValues WatchKit App.app in Resources */,
+				1D80A25C1AE161FE008A4387 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D80A25D1AE161FE008A4387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D80A2681AE161FE008A4387 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +372,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D80A24E1AE161FE008A4387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D80A2581AE161FE008A4387 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +387,16 @@
 			isa = PBXTargetDependency;
 			target = 1D80A2281AE161DC008A4387 /* ColorValues */;
 			targetProxy = 1D80A23F1AE161DC008A4387 /* PBXContainerItemProxy */;
+		};
+		1D80A2621AE161FE008A4387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D80A25E1AE161FE008A4387 /* ColorValues WatchKit App */;
+			targetProxy = 1D80A2611AE161FE008A4387 /* PBXContainerItemProxy */;
+		};
+		1D80A26C1AE161FE008A4387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D80A2511AE161FE008A4387 /* ColorValues WatchKit Extension */;
+			targetProxy = 1D80A26B1AE161FE008A4387 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +415,14 @@
 				1D80A2381AE161DC008A4387 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1D80A2661AE161FE008A4387 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D80A2671AE161FE008A4387 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +563,68 @@
 			};
 			name = Release;
 		};
+		1D80A26F1AE161FE008A4387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ColorValues_WatchKit_Extension;
+				INFOPLIST_FILE = "ColorValues WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1D80A2701AE161FE008A4387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = ColorValues_WatchKit_Extension;
+				INFOPLIST_FILE = "ColorValues WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1D80A2721AE161FE008A4387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ColorValues WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D80A2731AE161FE008A4387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ColorValues WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +644,7 @@
 				1D80A24A1AE161DD008A4387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D80A24B1AE161DD008A4387 /* Build configuration list for PBXNativeTarget "ColorValuesTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +653,25 @@
 				1D80A24D1AE161DD008A4387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D80A26E1AE161FE008A4387 /* Build configuration list for PBXNativeTarget "ColorValues WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D80A26F1AE161FE008A4387 /* Debug */,
+				1D80A2701AE161FE008A4387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D80A2711AE161FE008A4387 /* Build configuration list for PBXNativeTarget "ColorValues WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D80A2721AE161FE008A4387 /* Debug */,
+				1D80A2731AE161FE008A4387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
